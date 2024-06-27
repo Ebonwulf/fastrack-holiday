@@ -1,0 +1,16 @@
+.main {
+  background-color: $color-tertiary;
+  height: 90vh;
+  display: flex;
+
+  &__img {
+    width: 40%;
+    margin: 3rem;
+  }
+
+  &__para {
+    width: 50%;
+    margin: 3rem;
+    font-size: $default-font-size;
+  }
+}

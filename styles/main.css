@@ -14,7 +14,7 @@ html {
 }
 
 .header {
-  background-color: #43b943;
+  background-color: #3fc108;
   width: 100%;
   height: 10vh;
   display: flex;
@@ -43,7 +43,7 @@ html {
   color: #ffff;
 }
 .nav__a:hover {
-  color: #6a2cb1;
+  color: #4405b9;
 }
 
 .footer {
@@ -52,16 +52,14 @@ html {
 }
 
 .main {
-  background-color: #ffff;
+  background-color: #e8fde8;
   height: 90vh;
   display: flex;
 }
-
 .main__img {
   width: 40%;
   margin: 3rem;
 }
-
 .main__para {
   width: 50%;
   margin: 3rem;
