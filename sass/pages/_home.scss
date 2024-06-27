@@ -1,8 +1,5 @@
-.home {
-  background-color: aliceblue;
-}
-
 .main {
+  background-color: $color-white;
   height: 90vh;
   display: flex;
 }
@@ -15,4 +12,5 @@
 .main__para {
   width: 50%;
   margin: 3rem;
+  font-size: $default-font-size;
 }
