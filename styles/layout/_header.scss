@@ -6,27 +6,31 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $font-texts;
+  border-bottom: 2px solid $color-accent;
 
   &__heading {
     font-size: 3rem;
     color: $color-white;
+    margin-right: auto;
+    margin-left: 1rem;
   }
 }
 
 .nav {
   width: 60%;
   height: 100%;
+  margin: 1rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin: 1rem;
 
-  &__a {
-    margin: 1rem;
-    text-decoration: none;
-    font-size: 2rem;
+  &__item {
+    list-style: none;
+    width: 100%;
     color: $color-white;
+    font-size: $default-font-size;
+    text-decoration: none;
   }
   &__a:hover {
     color: $color-accent;

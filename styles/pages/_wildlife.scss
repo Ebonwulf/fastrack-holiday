@@ -1,0 +1,26 @@
+.wildlife {
+  &__heading {
+    text-align: center;
+    font-size: $heading-font-size;
+    padding-top: 3rem;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem;
+    height: 85vh;
+  }
+
+  &__boxes {
+    margin: 0.5rem;
+    width: 100rem;
+  }
+
+  &__img {
+    width: 100%;
+    margin: 3rem;
+    border: 2px solid $color-accent;
+  }
+}

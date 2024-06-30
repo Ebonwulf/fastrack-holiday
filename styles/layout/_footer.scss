@@ -1,4 +1,12 @@
 .footer {
-  background-color: gray;
-  height: 3rem;
+  background-color: $color-primary;
+  height: 5rem;
+  border-top: 2px solid $color-accent;
+  display: flex;
+
+  &__para {
+    margin: 1rem;
+    font-size: $default-font-size;
+    color: $color-white;
+  }
 }

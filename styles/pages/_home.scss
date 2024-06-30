@@ -1,16 +1,29 @@
-.main {
+.home {
   background-color: $color-tertiary;
-  height: 90vh;
-  display: flex;
+  font-family: $font-texts;
+  height: 85vh;
+
+  &__heading {
+    text-align: center;
+    font-size: $heading-font-size;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  &__content {
+    display: flex;
+    padding: 4rem;
+    font-size: $default-font-size;
+    margin: 3rem;
+    text-align: center;
+  }
 
   &__img {
-    width: 40%;
-    margin: 3rem;
+    width: 50%;
   }
 
   &__para {
-    width: 50%;
     margin: 3rem;
-    font-size: $default-font-size;
+    width: 50%;
   }
 }
