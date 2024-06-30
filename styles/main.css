@@ -98,6 +98,11 @@ body {
   font-family: "Roboto", sans-serif;
   padding-top: 9rem;
 }
+.wildlife__heading {
+  text-align: center;
+  font-size: 6rem;
+  padding: 3rem 0;
+}
 .wildlife__cont {
   display: grid;
   grid-template-columns: 33% 33% 33%;
