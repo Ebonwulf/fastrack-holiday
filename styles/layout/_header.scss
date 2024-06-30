@@ -8,12 +8,14 @@
   text-align: center;
   font-family: $font-texts;
   border-bottom: 2px solid $color-accent;
+  position: fixed;
 
   &__heading {
     font-size: 3rem;
     color: $color-white;
     margin-right: auto;
     margin-left: 1rem;
+    font-size: $heading-font-size;
   }
 }
 
@@ -32,7 +34,7 @@
     font-size: $default-font-size;
     text-decoration: none;
   }
-  &__a:hover {
+  &__item:hover {
     color: $color-accent;
   }
 }

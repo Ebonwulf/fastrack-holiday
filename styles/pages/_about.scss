@@ -1,0 +1,10 @@
+.about {
+  font-family: $font-texts;
+  padding-top: 9rem;
+
+  &__heading {
+    text-align: center;
+    font-size: $heading-font-size;
+    padding: 3rem 0;
+  }
+}

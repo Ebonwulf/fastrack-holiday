@@ -1,7 +1,6 @@
 .home {
-  background-color: $color-tertiary;
   font-family: $font-texts;
-  height: 85vh;
+  padding-top: 9rem;
 
   &__heading {
     text-align: center;
@@ -16,6 +15,7 @@
     font-size: $default-font-size;
     margin: 3rem;
     text-align: center;
+    height: 75vh;
   }
 
   &__img {

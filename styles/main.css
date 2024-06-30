@@ -13,6 +13,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: #f0fdf0;
+}
+
 .header {
   background-color: #33a103;
   width: 100%;
@@ -22,13 +26,15 @@ html {
   align-items: center;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  border-bottom: 2px solid #4405b9;
+  border-bottom: 2px solid #bce606;
+  position: fixed;
 }
 .header__heading {
   font-size: 3rem;
   color: #ffff;
   margin-right: auto;
   margin-left: 1rem;
+  font-size: 6rem;
 }
 
 .nav {
@@ -46,14 +52,14 @@ html {
   font-size: 2rem;
   text-decoration: none;
 }
-.nav__a:hover {
-  color: #4405b9;
+.nav__item:hover {
+  color: #bce606;
 }
 
 .footer {
   background-color: #33a103;
   height: 5rem;
-  border-top: 2px solid #4405b9;
+  border-top: 2px solid #bce606;
   display: flex;
 }
 .footer__para {
@@ -63,9 +69,8 @@ html {
 }
 
 .home {
-  background-color: #f0fdf0;
   font-family: "Roboto", sans-serif;
-  height: 85vh;
+  padding-top: 9rem;
 }
 .home__heading {
   text-align: center;
@@ -79,6 +84,7 @@ html {
   font-size: 2rem;
   margin: 3rem;
   text-align: center;
+  height: 75vh;
 }
 .home__img {
   width: 50%;
@@ -86,4 +92,32 @@ html {
 .home__para {
   margin: 3rem;
   width: 50%;
+}
+
+.wildlife {
+  font-family: "Roboto", sans-serif;
+  padding-top: 9rem;
+}
+.wildlife__cont {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50% 50%;
+  margin-top: 1rem;
+  height: 50%;
+}
+.wildlife__boxes {
+  margin: 0.5rem;
+  width: 90%;
+  height: 100%;
+  padding: 1rem;
+}
+.wildlife__img {
+  height: 90%;
+  width: 100%;
+  border: 2px solid #bce606;
+}
+.wildlife__para {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
 }
