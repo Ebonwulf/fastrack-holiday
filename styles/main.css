@@ -185,3 +185,28 @@ body {
   margin: 3rem;
   width: 50%;
 }
+
+.fastrack {
+  font-family: "Roboto", sans-serif;
+  padding-top: 9rem;
+}
+.fastrack__heading {
+  text-align: center;
+  font-size: 6rem;
+  padding: 3rem 0;
+}
+.fastrack__content {
+  display: flex;
+  padding: 4rem;
+  font-size: 2rem;
+  margin: 3rem;
+  text-align: center;
+  height: 75vh;
+}
+.fastrack__img {
+  width: 50%;
+}
+.fastrack__para {
+  margin: 3rem;
+  width: 50%;
+}
