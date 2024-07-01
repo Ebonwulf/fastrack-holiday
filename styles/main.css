@@ -103,21 +103,24 @@ body {
   font-size: 6rem;
   padding: 3rem 0;
 }
-.wildlife__cont {
+.wildlife__pic-box {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
   margin-top: 1rem;
-  height: 50%;
+  height: 90%;
+  width: 70%;
 }
-.wildlife__boxes {
-  margin: 0.5rem;
-  width: 90%;
-  height: 100%;
-  padding: 1rem;
+.wildlife__content {
+  display: flex;
+  padding: 4rem;
+  font-size: 2rem;
+  margin: 3rem;
+  text-align: center;
+  height: 65vh;
 }
 .wildlife__img {
-  height: 90%;
+  height: 100%;
   width: 100%;
   border: 2px solid #bce606;
 }
