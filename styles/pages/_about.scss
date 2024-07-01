@@ -7,4 +7,22 @@
     font-size: $heading-font-size;
     padding: 3rem 0;
   }
+
+  &__content {
+    display: flex;
+    padding: 4rem;
+    font-size: $default-font-size;
+    margin: 3rem;
+    text-align: center;
+    height: 75vh;
+  }
+
+  &__img {
+    width: 50%;
+  }
+
+  &__para {
+    margin: 3rem;
+    width: 50%;
+  }
 }
